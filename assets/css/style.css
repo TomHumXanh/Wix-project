@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.same>h5 {
+    opacity: 0.8;
+    font-weight: 100;
+}
+/* HEADER */
+#header .sale {
+    top: 0;
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+#header .sale>p {
+    margin: 0;
+    top: 0;
+}
+.head-nav {
+    cursor: pointer;
+    display: flex;
+    border: 1px solid black;
+    height: 66px;
+    
+}
+.head-nav .t-shop {
+    display: inline-block;
+    width: 20%;
+    background-color: #d6ff38;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 66px;
+    border: 1px solid black;
+   
+}
+.head-nav .new {
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 173, 233);
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    line-height: 66px;
+    font-size: 16px;
+    border: 1px solid black;
+  
+}
+.head-nav .women {
+    background-color: rgb(206, 173, 233);
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    line-height: 66px;
+    font-size: 16px;
+    border: 1px solid black;
+
+}
+.head-nav .men {
+    background-color: rgb(206, 173, 233);
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    line-height: 66px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.head-nav .head-icon {
+    background-color: rgb(206, 173, 233);
+    display: inline-block;    
+    width: 15%;
+    text-align: center;
+    line-height: 66px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+/* END HEADER */
+#body .name {
+    padding-top: 30px;
+    font-weight: 950;
+    font-size: 55px;
+    text-align: center;
+}
+
+#body .slogen {
+    width: 100%;
+    word-spacing: 4px; 
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    background-color: #d6ff38;
+}
+#body {
+    width: 100%;
+    display: inline-block;
+}
+#body .img-nav {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#body .img-1 {
+    width: 25%;
+    height: 298px;
+    display: inline-block;
+    
+}
+#body .img-2 {
+    margin-left: 2.5px;
+    width: 49%;
+    height: 298px;
+    display: inline-block;
+
+}
+#body .img-3 {
+    width: 25%;
+    height: 298px;
+    display: inline-block;
+    float: right;
+
+}
+.drop{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    font-weight: 900;
+}
+.picture {
+    
+    width: 100%;
+    cursor: pointer;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    
+}
+
+.picture2 {
+    width: 100%;
+    cursor: pointer;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+.button {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+
+}
+.shop-new {
+    cursor: pointer;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+}
+.shop-new:hover {
+    background-color: #d6ff38;
+    color: black;
+}
+.img-baner{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.order {
+    cursor: pointer;  
+    font-size: 30px;
+    padding-top: 60px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.order>i {
+    font-weight: 900;
+}
+/* End Body */
+#footer {
+    display: flex;
+    height: 250px;
+    padding-top: 50px;
+}
+.box1 {
+    
+    /* display: inline-block; */
+    background-color: black;
+    color: #fff;
+    height: 150px;
+    width: 30%;
+}
+.box1 ul {
+    margin-top: 15px;
+    line-height: 32px;
+    text-align: center;
+}
+.box2 {
+    border: 1px solid gray;
+    display: inline;
+    background-color: rgb(218, 223, 167);
+    color: #000;
+    height: 150px;    
+    width: 70%;
+    text-align: center;
+    
+
+}
+.box2>ul {
+    line-height: 32px;
+    cursor: pointer;
+    padding: 15px 80px;
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+
